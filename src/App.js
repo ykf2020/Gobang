@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useLayoutEffect, useRef } from "react";
 import Panel from "./components/Panel";
 import Board from "./components/Board";
 import styled from "styled-components";
@@ -7,7 +7,7 @@ import { findWinner } from "./utils.js";
 const Wrap = styled.div`
   width: 800px;
   height: 800px;
-  margin: 60px auto 0;
+  margin: 20px auto 0;
   display: flex;
   position: relative;
   align-items: center;
@@ -30,8 +30,8 @@ const PlayAgain = styled.div`
   height: 40px;
   border: 2px solid rgba(20, 20, 20, 0.5);
   border-radius: 10px;
-  bottom: 30px;
-  left: 30%;
+  top: 30px;
+  right: 8%;
 
   &:hover {
     border: none;
@@ -52,7 +52,7 @@ function App() {
   const [isBlackNext, setIsBlackNext] = useState(true);
   const lastStep = useRef({ y: "", x: "" });
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (history.length <= 1) return;
     setWinner(() => {
       if (!lastStep.current.y && !lastStep.current.x) return;
