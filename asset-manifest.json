@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Gobang/static/css/main.5c7fce2c.chunk.css",
+    "main.js": "/Gobang/static/js/main.ec379856.chunk.js",
+    "main.js.map": "/Gobang/static/js/main.ec379856.chunk.js.map",
+    "runtime-main.js": "/Gobang/static/js/runtime-main.168330ae.js",
+    "runtime-main.js.map": "/Gobang/static/js/runtime-main.168330ae.js.map",
+    "static/js/2.5a11faaf.chunk.js": "/Gobang/static/js/2.5a11faaf.chunk.js",
+    "static/js/2.5a11faaf.chunk.js.map": "/Gobang/static/js/2.5a11faaf.chunk.js.map",
+    "index.html": "/Gobang/index.html",
+    "static/css/main.5c7fce2c.chunk.css.map": "/Gobang/static/css/main.5c7fce2c.chunk.css.map",
+    "static/js/2.5a11faaf.chunk.js.LICENSE.txt": "/Gobang/static/js/2.5a11faaf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.168330ae.js",
+    "static/js/2.5a11faaf.chunk.js",
+    "static/css/main.5c7fce2c.chunk.css",
+    "static/js/main.ec379856.chunk.js"
+  ]
+}
