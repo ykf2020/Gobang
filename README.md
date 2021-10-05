@@ -3,7 +3,7 @@ A simple Gobang（五子棋）web game
 
 ## Demo
 ![](https://github.com/ykf2020/Gobang/blob/main/demo.gif)
-- Link: https://ykf2020.github.io/react-gobang
+- Link: https://ykf2020.github.io/Gobang
 
 ## Technologies
 - React
